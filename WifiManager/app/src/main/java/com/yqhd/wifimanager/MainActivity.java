@@ -1,4 +1,4 @@
-package com.yqhd.wifimanager;
+﻿package com.yqhd.wifimanager;
 
 import android.net.wifi.WifiManager;
 import android.support.v7.app.AppCompatActivity;
@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btn_connect_wifi).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                connect();
+               // connect();
             }
         });
     }
